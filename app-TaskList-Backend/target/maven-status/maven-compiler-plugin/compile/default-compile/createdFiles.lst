@@ -1,0 +1,5 @@
+com\app\TaskList\controller\TaskController.class
+com\app\TaskList\AppTaskListBackendApplication.class
+com\app\TaskList\model\Task.class
+com\app\TaskList\repository\TaskRepository.class
+com\app\TaskList\service\TaskService.class
