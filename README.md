@@ -25,18 +25,20 @@ Este es el repositorio backend para la aplicación TaskList, una plataforma de g
    
 
 2. Accede al directorio del proyecto:
-  ```bash
+   ```bash
    cd app-TaskList-Backend
 
 3. Configura las credenciales de la base de datos en el archivo application.properties:
+   ```bash
     spring.datasource.url=jdbc:mysql://localhost:3306/task_db?useSSL=false&serverTimezone=UTC
     spring.datasource.username=root
     spring.datasource.password=your_password
 
+5. Construye el proyecto:
+   ```bash
+     mvn clean install
 
-4. Construye el proyecto:
-  mvn clean install
-
-5. Ejecuta la aplicación:
-  mvn spring-boot:run
+7. Ejecuta la aplicación:
+   ```bash
+     mvn spring-boot:run
 
